@@ -1,0 +1,55 @@
+body {
+    background-color: cornsilk;
+    text-align: center;
+}
+#a {
+    width: 400px;
+    height: 200px;
+    font-size: 80px;
+    font-family: Arial;
+    color:rgb(121, 163, 43);
+    background-color:darkolivegreen;
+    border-radius: 50px;
+    border: solid;
+    padding: 10px;
+    margin-left: 0;
+    display: block;
+}
+#b {
+    font-size: 20px;
+    font-family: Arial;
+    border: solid 5px rgb(196, 22, 22);
+    padding: 10px;
+    border-radius: 500px;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+#frente {
+    height: 300px;
+    width: 300px;
+    border: solid 5px black;
+    padding: 10px;
+    border-radius: 150px 30px 150px 30px;
+    margin-left: 0;
+}
+#interior {
+    height: 300px;
+    width: 300px;
+    border: solid 5px black;
+    padding: 10px;
+    border-radius: 30px 150px 30px 150px;
+    margin-left: 0;
+}
+c {
+    width: 200px;
+    height: 200px;
+    background-color: palegreen;
+    border: solid 2px white;
+    border-radius: 50px;
+}
